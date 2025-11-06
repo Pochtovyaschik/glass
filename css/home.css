@@ -1,8 +1,9 @@
 main{
     width: 100%;
+    margin-top: 2%;
 }
 .left{
-    width: 30%;
+    width: 25%;
     padding-left: 0;
     padding: 10px 0;
 }
@@ -11,8 +12,10 @@ main{
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    padding: 5px 20px;
+    padding: 5%;
     width: 100%;
+    height: 55%;
+    justify-content: space-between;
 }
 .trailers > h3{
     color: aliceblue;
@@ -21,7 +24,42 @@ main{
     margin: 10px 0;
     padding: 0 10px;
 }
-.trailers > img{
-    padding: 10px;
+.trailers > .trailer-card1, .trailer-card2{
     border-radius: 30px;
+    height: 38%;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom center;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+}
+.trailers > h3{
+    color: azure;
+    font-size: 18px;
+    word-spacing: 1px;
+}
+.trailer-card1{
+    background-image: url("../images/sledy_na_snegu.jpg");
+}
+.trailer-card2{
+    background-image: url("../images/ziv.jpg");
+}
+.blur{
+    background-color: rgba(181, 182, 182, 0.274);
+    backdrop-filter: blur(10px);
+    padding: 3% 5%;
+}
+.blur > h3{
+    color: azure;
+    font-size: 16px;
+    margin: 0;
+}
+.blur > p{
+    color: azure;
+    font-size: 10px;
+    font-weight: 250;
+    margin: 0;
 }
