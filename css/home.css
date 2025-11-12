@@ -63,3 +63,37 @@ main{
     font-weight: 250;
     margin: 0;
 }
+.continue{
+    background-color: rgba(240, 255, 255, 0.288);
+    border-radius: 30px;
+    color: azure;
+    width: 100%;
+    padding: 5%;
+}
+.continue > h3{
+    margin: 0;
+}
+.continue-card1{
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+}
+.continue > .continue-card1 > .i{
+    background-color: rgba(128, 128, 128, 0.541);
+    border-radius: 50px;
+    padding: 11.5px 10px;
+    color: black;
+}
+.continue > .continue-card1 > img{
+    border-radius: 30px;
+    width: 50%;
+    height: 40%;
+}
+.info{
+    padding: 3%;
+}
+.continue > .continue-card1 > .info > .name{
+    font-weight: 900;
+    font-size: large;
+}
