@@ -69,6 +69,7 @@ main{
     color: azure;
     width: 100%;
     padding: 5%;
+    margin-top: 2%;
 }
 .continue > h3{
     margin: 0;
@@ -96,4 +97,10 @@ main{
 .continue > .continue-card1 > .info > .name{
     font-weight: 900;
     font-size: large;
+    margin: 0;
+}
+.continue > .continue-card1 > .info > .serie{
+    font-weight: 400;
+    font-size: small;
+    margin: 0;
 }
